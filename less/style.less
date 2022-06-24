@@ -12,4 +12,68 @@ body {
   font-family: @font-family;
   line-height: 1.6;
   background-image: url(https://themesbrand.com/lezir/layout/images/hero-1-bg-img.png);
+  background-size: cover;
+  height: 1000px;
+}
+
+.container {
+  max-width: 1000px;
+  padding: 0 30px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Muli", sans-serif;
+}
+
+.section {
+  height: 700px;
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    ul {
+      display: flex;
+      list-style-type: none;
+    }
+
+    li {
+      font-size: 15px;
+      padding: 15px;
+    }
+  }
+
+  &-content {
+    display: flex;
+
+    .img-container {
+      width: 50%;
+    }
+
+    h1 {
+      font-size: 52px;
+      line-height: 1.2;
+      text-shadow: 3px 3px 6px rgb(14 10 65 / 25%);
+    }
+
+    .text-contaner {
+      font-size: 17px;
+      line-height: 1.8;
+
+      .text {
+        max-width: 400px;
+      }
+    }
+  }
 }
